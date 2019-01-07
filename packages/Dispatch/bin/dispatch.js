@@ -21,4 +21,4 @@ if(prefix) {
     process.stdout.write(`\n[${pkg.name}] Calling netcore DLL\n`);
 }
 process.argv= [process.argv[0], process.argv[1], __dirname + '/netcoreapp2.1/Dispatch.dll', ...process.argv.slice(2)]
-require("dotnet-2.1")
+// require("dotnet-2.1")
